@@ -36,7 +36,7 @@ const ThreeSixtyViewer = () => {
     geometry.scale(-1, 1, 1);
 
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load("/Fachada_cinco.jpg", (texture) => {
+    textureLoader.load("/deck_um.jpg", (texture) => {
       // texture.encoding = THREE.sRGBEncoding; // Garantir a correção de cor da textura
       texture.minFilter = THREE.LinearFilter;
       texture.magFilter = THREE.LinearFilter;
